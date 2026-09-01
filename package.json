@@ -1,0 +1,11 @@
+{
+  "name": "elvora-store",
+  "private": true,
+  "version": "5.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "razorpay": "^2.9.6"
+  }
+}

@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ELVORA — minimalist, modern furniture for beautiful living spaces.">
+<title>ELVORA — Furniture & Living</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-loader" aria-hidden="true"><span>ELVORA</span></div>
+
+<header class="site-header" id="siteHeader">
+<nav class="nav container" aria-label="Primary navigation">
+<a class="brand" href="#home" aria-label="ELVORA home">EL<span>V</span>ORA</a>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
+<div class="nav-links" id="navLinks">
+<a class="nav-link active" href="#home">Home</a>
+<a class="nav-link" href="#about">About Us</a>
+<div class="nav-dropdown">
+  <a class="nav-link nav-parent" href="#furniture" aria-haspopup="true">Furniture <span class="chevron">⌄</span></a>
+  <div class="dropdown-menu">
+    <a href="#shop" data-nav-category="Chair">Chairs</a>
+    <a href="#shop" data-nav-category="Beds">Beds</a>
+    <a href="#shop" data-nav-category="Sofa">Sofas</a>
+    <a href="#shop" data-nav-category="Lamp">Lamps</a>
+  </div>
+</div>
+<a class="nav-link" href="#shop">Shop</a>
+<a class="nav-link" href="#contact">Contact</a>
+</div>
+<button class="account-btn" type="button" aria-label="Open account">
+<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 20c.8-3.2 3-4.8 6.5-4.8s5.7 1.6 6.5 4.8"></path></svg>
+</button>
+<button class="bag-btn" type="button" aria-label="Open shopping bag">
+<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.8 8.5h10.4l1 12H5.8l1-12Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg><b class="bag-count">0</b>
+</button>
+</nav>
+</header>
+
+<main id="home">
+<section class="hero">
+<div class="hero-bg"></div><div class="hero-overlay"></div>
+<div class="hero-content container reveal">
+<p class="eyebrow">ELVORA FURNITURE</p>
+<h1>Make Your Interior More<br><em>Minimalistic &amp; Modern</em></h1>
+<p class="hero-copy">Turn your room with Elvora into a more minimalist<br class="desktop"> and modern with ease and speed</p>
+<form class="search-box" id="searchForm"><input id="searchInput" type="search" placeholder="Search furniture..." aria-label="Search furniture"><button type="submit" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg></button></form>
+</div>
+<div class="hero-controls container">
+<div class="hero-swatches" aria-label="Sofa colour">
+<button class="swatch active" data-hero-index="0" style="--swatch:#d96b0c" aria-label="Orange sofa"></button>
+<button class="swatch" data-hero-index="2" style="--swatch:#d7c5af" aria-label="Cream sofa"></button>
+<button class="swatch" data-hero-index="1" style="--swatch:#24452b" aria-label="Olive sofa"></button>
+</div><div class="hero-progress"><span></span></div>
+</div>
+</section>
+
+<section class="why section container" id="about">
+<div class="why-title reveal"><span class="mini-label">WHY ELVORA</span><h2>Why<br>Choosing Us</h2></div>
+<article class="feature reveal"><h3>Luxury facilities</h3><p>The advantage of having a workspace with us is that it gives you comfortable service and all-around facilities.</p><a href="#contact">More info <span>→</span></a></article>
+<article class="feature reveal"><h3>Affordable Price</h3><p>You can get a workspace of the highest quality at an affordable price and still enjoy the facilities that are available.</p><a href="#contact">More info <span>→</span></a></article>
+<article class="feature reveal"><h3>Many Choices</h3><p>We provide many unique work space choices so that you can choose the workspace to your liking.</p><a href="#shop">More info <span>→</span></a></article>
+</section>
+
+<section class="collection-section section" id="furniture">
+<div class="container">
+  <div class="section-heading reveal">
+    <span class="mini-label">EXPLORE FURNITURE</span>
+    <h2>Designed For Every Room</h2>
+    <p class="section-lead">Discover considered pieces for living, relaxing, working and illuminating your space.</p>
+  </div>
+  <div class="collection-grid">
+    <button class="collection-card reveal" data-collection="Chair" type="button">
+      <span class="collection-image"><img src="assets/Chair 1.png" alt="Chairs"></span>
+      <span class="collection-text"><strong>Chairs</strong><small>Comfort with character</small><b>Explore →</b></span>
+    </button>
+    <button class="collection-card reveal" data-collection="Beds" type="button">
+      <span class="collection-image"><img src="assets/Bed 2.png" alt="Beds"></span>
+      <span class="collection-text"><strong>Beds</strong><small>Rest in modern comfort</small><b>Explore →</b></span>
+    </button>
+    <button class="collection-card reveal" data-collection="Sofa" type="button">
+      <span class="collection-image"><img src="assets/Sofa 2.png" alt="Sofas"></span>
+      <span class="collection-text"><strong>Sofas</strong><small>Made for living</small><b>Explore →</b></span>
+    </button>
+    <button class="collection-card reveal" data-collection="Lamp" type="button">
+      <span class="collection-image"><img src="assets/Lamp 4.png" alt="Lamps"></span>
+      <span class="collection-text"><strong>Lamps</strong><small>Light your atmosphere</small><b>Explore →</b></span>
+    </button>
+  </div>
+</div>
+</section>
+
+<section class="products-section section" id="shop">
+<div class="container">
+<div class="section-heading reveal"><span class="mini-label">OUR COLLECTION</span><h2>Best Selling Product</h2><p class="section-lead">Our most-loved pieces, selected for modern interiors.</p>
+<div class="category-tabs" role="tablist" aria-label="Furniture categories">
+<button class="tab active" role="tab" aria-selected="true" data-category="Chair">Chair</button>
+<button class="tab" role="tab" aria-selected="false" data-category="Beds">Beds</button>
+<button class="tab" role="tab" aria-selected="false" data-category="Sofa">Sofa</button>
+<button class="tab" role="tab" aria-selected="false" data-category="Lamp">Lamp</button>
+</div></div>
+<div class="product-grid" id="productGrid"></div>
+<div class="product-footer"><button class="round-arrow product-prev" type="button" aria-label="Previous category">←</button><button class="view-all" type="button" id="viewAll">View All <span>⟶</span></button><button class="round-arrow product-next" type="button" aria-label="Next category">→</button></div>
+</div>
+</section>
+
+<section class="story section container">
+<div class="story-media reveal"><div class="story-back one"></div><div class="story-back two"></div><img src="assets/Review Bg 1.png" alt="Modern ELVORA living room" loading="lazy"></div>
+<div class="story-copy reveal"><span class="mini-label">EXPERIENCES</span><h2>We Provide You The<br>Best Experience</h2><p>You don't have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and luxurious style and with premium quality materials.</p><a class="text-link" href="#contact">More info <span>→</span></a></div>
+</section>
+
+<section class="materials section container">
+<div class="materials-copy reveal"><span class="mini-label">MATERIALS</span><h2>Very Serious<br>Materials For Making<br>Furniture</h2><p>Because Elvora uses only serious about choosing furniture for our environment, using every expensive and famous capital but not a relatively low price.</p><a class="text-link" href="#contact">More info <span>→</span></a></div>
+<div class="materials-gallery reveal"><div class="material-small"><img src="assets/Review Bg 6.png" alt="Interior detail" loading="lazy"><img src="assets/Review Bg 2.png" alt="Chair interior" loading="lazy"></div><img class="material-main" src="assets/Review Bg 5.png" alt="Dining interior" loading="lazy"></div>
+</section>
+
+<section class="testimonials section" id="reviews">
+<div class="container"><div class="section-heading reveal"><span class="mini-label">TESTIMONIALS</span><h2>Our Client Reviews</h2></div>
+<div class="reviews-wrap"><button class="round-arrow review-prev" type="button" aria-label="Previous reviews">←</button><div class="reviews-viewport"><div class="reviews-track" id="reviewsTrack"></div></div><button class="round-arrow review-next" type="button" aria-label="Next reviews">→</button></div>
+<div class="review-dots" id="reviewDots"></div>
+</div></section>
+</main>
+
+<footer class="footer" id="contact"><div class="container footer-main">
+<div class="footer-brand"><a class="brand footer-logo" href="#home">EL<span>V</span>ORA</a><p>The advantage of having a workspace with us is that it gives you comfortable service and all-around facilities.</p></div>
+<div><h4>Services</h4><a href="#contact">Email Marketing</a><a href="#contact">Campaigns</a><a href="#contact">Branding</a></div>
+<div><h4>Furniture</h4><a href="#shop">Beds</a><a href="#shop">Chair</a><a href="#shop">All</a></div>
+<div><h4>Follow Us</h4><a href="#contact">Facebook</a><a href="#contact">Twitter</a><a href="#contact">Instagram</a></div>
+</div><div class="container footer-bottom"><div><a href="#contact">Terms &amp; Conditions</a><a href="#contact">Privacy Policy</a></div><span>Copyright © 2026 All rights reserved ELVORA  |  Made with GWTHM</span></div></footer>
+<div class="product-modal" id="productModal" aria-hidden="true">
+  <div class="modal-backdrop" data-close-modal></div>
+  <div class="product-modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalProductName">
+    <button class="modal-close" type="button" data-close-modal aria-label="Close product details">×</button>
+    <div class="modal-product-image"><img id="modalProductImage" src="" alt=""></div>
+    <div class="modal-product-copy">
+      <span class="mini-label" id="modalProductCategory">ELVORA</span>
+      <h2 id="modalProductName"></h2>
+      <div class="modal-stars">★★★★★ <span>5.0</span></div>
+      <div class="modal-price" id="modalProductPrice"></div>
+      <p id="modalProductDescription"></p>
+      <div class="modal-meta"><span>Premium materials</span><span>2 year warranty</span><span>Free delivery</span></div>
+      <button class="modal-add" id="modalAddBtn" type="button">Add to Bag</button>
+    </div>
+  </div>
+</div>
+
+<aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+  <div class="cart-backdrop" data-close-cart></div>
+  <div class="cart-panel">
+    <div class="cart-head"><div><span class="mini-label">ELVORA</span><h2>Your Bag</h2></div><button class="cart-close" type="button" data-close-cart aria-label="Close bag">×</button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-empty" id="cartEmpty">Your bag is empty.<br><span>Explore our collection and add something you love.</span></div>
+    <div class="cart-footer" id="cartFooter">
+      <div><span>Subtotal</span><strong id="cartTotal">$ 0</strong></div>
+      <button type="button" id="checkoutBtn">Secure Checkout</button>
+      <small>Taxes and delivery calculated at checkout.</small>
+    </div>
+  </div>
+</aside>
+
+<div class="app-modal" id="accountModal" aria-hidden="true">
+  <div class="app-backdrop" data-close-app="accountModal"></div>
+  <div class="app-panel account-panel" role="dialog" aria-modal="true" aria-labelledby="accountTitle">
+    <button class="app-close" type="button" data-close-app="accountModal">×</button>
+    <div class="account-tabs"><button class="account-tab active" data-account-tab="login">Sign In</button><button class="account-tab" data-account-tab="signup">Create Account</button></div>
+    <div class="account-view" data-account-view="login"><span class="mini-label">ELVORA ACCOUNT</span><h2 id="accountTitle">Welcome back</h2><p>Sign in to save your details and track orders.</p><form id="loginForm" class="app-form"><input name="email" type="email" placeholder="Email address" required><input name="password" type="password" placeholder="Password" minlength="6" required><button type="submit">Sign In</button></form><button class="text-button" id="demoLogin" type="button">Use demo account</button></div>
+    <div class="account-view hidden" data-account-view="signup"><span class="mini-label">ELVORA ACCOUNT</span><h2>Create your account</h2><p>Save your cart, addresses and orders on this device.</p><form id="signupForm" class="app-form"><input name="name" placeholder="Full name" required><input name="email" type="email" placeholder="Email address" required><input name="password" type="password" placeholder="Password (6+ characters)" minlength="6" required><button type="submit">Create Account</button></form></div>
+    <div class="account-user hidden" id="accountUser"><span class="mini-label">SIGNED IN</span><h2 id="accountUserName"></h2><p id="accountUserEmail"></p><button class="app-secondary" id="ordersBtn" type="button">My Orders</button><button class="app-secondary" id="logoutBtn" type="button">Sign Out</button></div>
+  </div>
+</div>
+<div class="app-modal" id="checkoutModal" aria-hidden="true">
+  <div class="app-backdrop" data-close-app="checkoutModal"></div>
+  <div class="app-panel checkout-panel" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+    <button class="app-close" type="button" data-close-app="checkoutModal">×</button>
+    <span class="mini-label">ELVORA CHECKOUT</span><h2 id="checkoutTitle">Complete your order</h2>
+    <div class="checkout-layout"><form id="checkoutForm" class="app-form"><input name="name" placeholder="Full name" required><input name="email" type="email" placeholder="Email address" required><input name="phone" type="tel" placeholder="Phone number" required><textarea name="address" rows="3" placeholder="Delivery address" required></textarea><div class="coupon-line"><input id="couponInput" placeholder="Coupon code" autocomplete="off"><button id="couponBtn" type="button">Apply</button></div><div class="checkout-methods"><label><input type="radio" name="payment" value="cod" checked> Cash on Delivery</label><label><input type="radio" name="payment" value="online"> Online payment (gateway-ready)</label></div><button type="submit">Place Order</button></form><div class="checkout-summary"><h3>Order summary</h3><div id="checkoutItems"></div><div class="summary-total"><span>Total</span><strong id="checkoutTotal">$ 0</strong></div></div></div>
+  </div>
+</div>
+<div class="app-modal" id="ordersModal" aria-hidden="true">
+  <div class="app-backdrop" data-close-app="ordersModal"></div>
+  <div class="app-panel orders-panel" role="dialog" aria-modal="true" aria-labelledby="ordersTitle"><button class="app-close" type="button" data-close-app="ordersModal">×</button><span class="mini-label">ELVORA ACCOUNT</span><h2 id="ordersTitle">My Orders</h2><div id="ordersList"></div></div>
+</div>
+<div class="app-modal" id="adminModal" aria-hidden="true">
+  <div class="app-backdrop" data-close-app="adminModal"></div>
+  <div class="app-panel admin-panel" role="dialog" aria-modal="true" aria-labelledby="adminTitle"><button class="app-close" type="button" data-close-app="adminModal">×</button><span class="mini-label">ADMIN CONSOLE</span><h2 id="adminTitle">Product Manager</h2><p class="admin-note">Production admin console. Connect Supabase to enable secure shared products and orders.</p><form id="adminForm" class="app-form admin-form"><input name="name" placeholder="Product name" required><select name="category"><option>Chair</option><option>Beds</option><option>Sofa</option><option>Lamp</option></select><input name="price" type="number" min="1" step="1" placeholder="Price" required><input name="stock" type="number" min="0" step="1" value="10" placeholder="Stock"><input name="image" placeholder="Image path or URL"><input id="adminFile" name="file" type="file" accept="image/*"><textarea name="description" rows="2" placeholder="Description"></textarea><button type="submit">Add Product</button></form><form id="adminCouponForm" class="app-form admin-form coupon-admin-form"><input name="code" placeholder="Coupon code" required><select name="type"><option value="percent">Percent</option><option value="fixed">Fixed ₹</option></select><input name="value" type="number" min="1" placeholder="Value" required><input name="min_order" type="number" min="0" placeholder="Min order"><input name="max_discount" type="number" min="0" placeholder="Max discount"><input name="usage_limit" type="number" min="1" placeholder="Usage limit"><button type="submit">Create Coupon</button></form><div id="adminProducts"></div></div>
+</div>
+<div class="admin-trigger" id="adminTrigger" title="Admin">A</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js"></script>
+<script src="script.js"></script>
+<script src="backend.js"></script>
+</body></html>
