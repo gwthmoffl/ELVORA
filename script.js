@@ -243,12 +243,19 @@
     document.body.classList.remove("menu-open");
   });
   const furnitureParent=$(".nav-parent");
+
   if(furnitureParent){
     furnitureParent.addEventListener("click",e=>{
-      if(innerWidth<=760){
+      if(window.innerWidth<=760){
         e.preventDefault();
-        furnitureParent.parentElement.classList.toggle("open");
-      }
+        e.stopPropagation();
+
+        const dropdown=furnitureParent.closest(".nav-dropdown");
+
+        if(dropdown){
+          dropdown.classList.toggle("open");
+        }
+     }
     });
   }
   function showToast(t){
