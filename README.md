@@ -1,6 +1,6 @@
-# ELVORA v5 — Complete E-commerce
+# ELVORA — Complete E-commerce
 
-Version 5 builds on the ELVORA storefront and adds a stronger production workflow: real Supabase auth/database, customer profiles, orders, admin dashboard, stock controls, order-status management, customer enable/disable, coupons/discounts, product image uploads, Razorpay-ready checkout and Vercel deployment.
+ builds on the ELVORA storefront and adds a stronger production workflow: real Supabase auth/database, customer profiles, orders, admin dashboard, stock controls, order-status management, customer enable/disable, coupons/discounts, product image uploads, Razorpay-ready checkout and Vercel deployment.
 
 ## What is included
 - Existing ELVORA visual storefront preserved
